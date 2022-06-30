@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(59, 88, 88);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1#principal{
+   text-align: center;
+   color: rgb(90, 90, 59); 
+   background-color: rgb(200, 170, 110);
+   
+}
+
+.basico{
+    color: rgb(141, 199, 53);
+}
+
+.intermediario{
+    color: rgb(235, 235, 50);
+}
+
+.avançado{
+    color: rgb(250, 94, 94);
+}
+
+.destaque{
+    background-color: aqua;
+}
+
+h1{
+    color: rgb(209, 163, 107);
+}
+
+h2{
+    color: rgb(179, 130, 74);
+}

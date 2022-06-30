@@ -1,0 +1,14 @@
+@font-face {
+    font-family:'Books';
+    src: url('fontes/Go\ around\ the\ books\ 2022.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    font-family: 'Books', sans-serif;
+}
+
+h1{
+    font-family: 'Books', sans-serif;
+}
