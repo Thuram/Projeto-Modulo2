@@ -23,9 +23,26 @@
             width: 250px;
         }
 
+        a{
+            text-decoration: none;
+            color: rgb(84, 72, 56);
+            font-weight: bolder;
+            margin: 10px auto;
+        }
+        #especial:hover{
+            text-decoration: underline;
+            color: #40196d;
+            
+        }
         nav{
             background-color: #cd97b2;
-            padding: 3px ;
+            padding: 4px ;
+            margin: none;
+            /* Horizontal -> vertical -> espalhamento -> sombra -> */
+            box-shadow:  4px 4px 5px rgba(0, 0, 0, 0.385);
+        }
+        footer > p{
+            margin: -8px;
         }
         nav > a{
             text-decoration: none;
@@ -42,6 +59,7 @@
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: justify;
             width: 250px;
+            border-radius: 4px 4px 9px 0px rgba(0, 0, 0, 0.493)
         }
         article{
             margin: 10px;
@@ -54,7 +72,21 @@
             color: #cd97b2;
             text-align: center;
             padding: 10px;
-            margin: 0px;
+            margin: 6px;
+            box-shadow: 3px 5px rgba(0, 0, 0, 0.425);
+            margin-bottom: 20px;
+            
+        }
+        div#bola{
+            height: 200px;
+            width: 200px;
+            background-color: #000000;
+            border-radius: 50%;
+            margin: auto;
+            text-align: center;
+            color: aliceblue;
+            text-align:center;
+
         }
     </style>
 </head>
@@ -100,6 +132,7 @@
     <footer>
         <p>Desenvolvido por Gustavo Thuram</p>
     </footer>
+    <div id="bola">Bola</div>
 
 
 
@@ -111,6 +144,6 @@
 
 
 
-<h2><a href="cor001.html">Pag01</a></h2>
+<h2><a id="especial" href="cor001.html">Pag01</a></h2>
 </body>
 </html>
